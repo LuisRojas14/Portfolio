@@ -40,7 +40,8 @@ h1, h4, p, a{
   .btn:hover{
     background: rgba(255,255,255,0.2);
     color: white;
-    transition:03s;
+    transition:0.3s;
   }
 
- 
+
+  
