@@ -1,4 +1,4 @@
-import "./HeroImgStyle.css";
+import "./HeroImgStyles2.css";
 import React from "react";
 
 const HeroImg2 = () => {
