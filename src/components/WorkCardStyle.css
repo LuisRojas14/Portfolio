@@ -7,8 +7,8 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid: gap 40px;
-  padding: 5rem;
+  grid-gap: 40px;
+  padding-bottom: 5rem;
 }
 .project-card {
   background: black;
@@ -16,4 +16,35 @@
 }
 .project-card img {
   width: 100%;
+}
+.project-title {
+  color: white;
+  padding: 1rem 0;
+}
+
+.pro-details p {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.pro-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+.pro-btns .btn {
+  padding: 0.5rem 1rem;
+}
+.card .btn {
+  display: block;
+  width: 80%;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 74) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
 }
