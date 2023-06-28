@@ -12,7 +12,11 @@ const WorkCard = () => {
           <img src={pro1} alt="photo" />
           <h2 className="project-title"> Project Title 1</h2>
           <div className="pro-details">
-            <p> text  Lorem ipsum dolor sit amet. Cum aperiam maiores ea odio exercitationem est quia inventore aut provident enim et magnam dolorem! 33 vitae recusandae ab
+            <p>
+              {" "}
+              text Lorem ipsum dolor sit amet. Cum aperiam maiores ea odio
+              exercitationem est quia inventore aut provident enim et magnam
+              dolorem! 33 vitae recusandae ab
             </p>
             <div className="pro-btns">
               <NavLink to="url.com" className="btn">
@@ -28,7 +32,11 @@ const WorkCard = () => {
           <img src={pro1} alt="photo" />
           <h2 className="project-title"> Project Title 2</h2>
           <div className="pro-details">
-            <p> text  Lorem ipsum dolor sit amet. Cum aperiam maiores ea odio exercitationem est quia inventore aut provident enim et magnam dolorem! 33 vitae recusandae ab
+            <p>
+              {" "}
+              text Lorem ipsum dolor sit amet. Cum aperiam maiores ea odio
+              exercitationem est quia inventore aut provident enim et magnam
+              dolorem! 33 vitae recusandae ab
             </p>
             <div className="pro-btns">
               <NavLink to="url.com" className="btn">
@@ -44,7 +52,11 @@ const WorkCard = () => {
           <img src={pro1} alt="photo" />
           <h2 className="project-title"> Project Title 3</h2>
           <div className="pro-details">
-            <p> text  Lorem ipsum dolor sit amet. Cum aperiam maiores ea odio exercitationem est quia inventore aut provident enim et magnam dolorem! 33 vitae recusandae ab
+            <p>
+              {" "}
+              text Lorem ipsum dolor sit amet. Cum aperiam maiores ea odio
+              exercitationem est quia inventore aut provident enim et magnam
+              dolorem! 33 vitae recusandae ab
             </p>
             <div className="pro-btns">
               <NavLink to="url.com" className="btn">
@@ -57,7 +69,7 @@ const WorkCard = () => {
           </div>
         </div>
       </div>
-      </div>
+    </div>
   );
 };
 
