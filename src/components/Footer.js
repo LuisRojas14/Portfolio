@@ -43,9 +43,10 @@ const Footer = () => {
         <div className="right">
           <h4> About me </h4>
           <p>
-            Hospitality industry professional with 14+ years' experience
-            transitioning to web development. Seeking new opportunities to
-            combine customer service expertise with a passion for technology.
+            Hospitality industry professional with more than fourteen years'
+            experience transitioning to web development. Seeking new
+            opportunities to combine customer service expertise with a passion
+            for technology.
           </p>
           <div className="social-media">
             <a
