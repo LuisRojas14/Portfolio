@@ -9,7 +9,7 @@
 }
 .about .left {
   text-align: center;
-  margin:auto;
+  margin: auto;
   padding: 1rem;
   max-width: 700px;
 }
@@ -20,11 +20,9 @@
   margin-top: 3rem; /* Add margin top for spacing */
 }
 
-
 .about .left p {
-  margin: .2rem 0;
+  margin: 0.2rem 0;
   line-height: 2; /* Adjust the value to increase or decrease line spacing */
-  
 }
 .about .right {
   max-width: 700px;
@@ -39,8 +37,7 @@
 .right .img {
   max-width: 90%;
   border: 1px solid black;
-  filter: sepia(10%) contrast(110%)
-  /* grayscale(100%);  */
+  filter: sepia(50%) contrast(130%) grayscale(100%);
 }
 .right .top {
   grid-column: 1 / span 8;
