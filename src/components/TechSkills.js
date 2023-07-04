@@ -7,26 +7,30 @@ import {
   faHtml5,
   faCss3,
   faBootstrap,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./TechSkills.css";
 
 const TechSkillsComponent = () => {
   const techSkills = [
-    { name: "HTML5", icon: faHtml5 },
-    { name: "CSS3", icon: faCss3 },
-    { name: "JavaScript", icon: faJs },
-    { name: "React", icon: faReact },
+    // frontend
+    { name: " HTML5", icon: faHtml5 },
+    { name: " CSS3", icon: faCss3 },
+    { name: " JavaScript", icon: faJs },
+    { name: " React JS", icon: faReact },
+    { name: " Bootstrap", icon:  faBootstrap },
+      //backend
+    { name: " Node.js", icon: faNodeJs },
+   
 
-    { name: "React Bootstrap", icon: faReact },
-
-    // Add more skills as needed
+   
   ];
 
   return (
     <Container>
       <h2 className="tech">My Tech Skills</h2>
-      <Row>
+      <Row> 
         {techSkills.map((skill, index) => (
           <Col key={index} sm={10} md={4} lg={3}>
             <Card className="skill-card">
