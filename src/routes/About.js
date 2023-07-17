@@ -8,8 +8,8 @@ import TechSkills from "../components/TechSkills";
 const About = () => {
   return (
     <div>
-      <Navbar />
-      <HeroImg2  heading="ABOUT" text=" :Lorem "/>
+      <Navbar/>
+      <HeroImg2  heading="ABOUT" text="Get to know a little bit more about me. "/>
       <AboutContent/>
       <TechSkills/>
       <Footer />
