@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import HeroImg from "../components/HeroImg";
 // import WorkCards from "../components/WorkCard";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <Navbar />
       <HeroImg />
       {/* <WorkCards /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

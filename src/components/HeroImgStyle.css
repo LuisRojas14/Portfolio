@@ -26,6 +26,7 @@
   height: 100%;
   width: 100%;
 }
+
 .hero .content {
   position: absolute;
   transform: translate(-50%, -50%);
