@@ -10,7 +10,7 @@ const AboutContent = () => {
     <div className="about">
       <div className="left">
         <h1>Who Am I?</h1>
-        <p>
+        <p className=" justified-paragraph">
           I am a driven and determined individual who is passionate about
           technology and innovation. After working for more than a decade in the
           hospitality industry, I made the decision to pursue a career in tech
