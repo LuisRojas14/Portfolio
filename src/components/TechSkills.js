@@ -1,6 +1,7 @@
 import React from "react";
 import expressLogo from "../assets/express.png";
 import mongoDBLogo from "../assets/mongoDB.png";
+import postgreSQL from "../assets/postgreSQL.png";
 import { Container, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -25,10 +26,10 @@ const TechSkills = () => {
     { name: "Bootstrap", icon: faBootstrap },
     { name: "Node.js", icon: faNodeJs },
     { name: "GitHub", icon: faGithub },
-    { name: "Python", icon: faPython },
     { name: "Git", icon: faGit },
     { name: "Express.js", icon: expressLogo },
     { name: "MongoDb", icon: mongoDBLogo },
+    { name: "PostgreSQL" , icon: postgreSQL}
   ];
 
   return (
