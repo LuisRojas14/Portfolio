@@ -1,47 +1,78 @@
-.skill-card {
-  background-color: #f8f9fa;
-  border: 1px solid #ced4da;
-  border-radius: 1px;
-  padding: 1rem;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-.skill-logo {
-    font-size: 3rem; /* Adjust the size as needed */
+
+  .tech {
+    padding: 2rem;
+    color: #f8f9fa;
+    text-align: center;
+    size-adjust: 50px;
+    width: 100%;
+    margin: 0rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    font-size: xx-large;}
+  
+  .skill-card {
+    background-color: #27292f;
+    border: 0px solid #ced4da;
+    border-radius: 1px;
+    padding: 12rem;
+    text-align: center;
   }
   
-.tech {
-  padding: 2rem;
-  color: #f8f9fa;
-  text-align: center;
-  size-adjust: 50px;
-  width: 100%;
-  margin: 3rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 100%;
-  font-size: xx-large;
-}
-.skill-logo.react {
-  color: #61dafb;
-}
-
-.skill-logo.javascript {
-  color: #f7df1e;
-}
-
-.skill-logo.html5 {
-  color: #e34c26;
- 
-}
-.skill-logo.css3 {
-  color: #2658e3;
-}
-.skill-logo.bootstrap {
-    color: #7952b3; 
+  .skill-card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
   }
-  .skill-logo.nodejs {
-    color: #8cc84b; 
+  
+  .skill {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
   }
+  .skill-logo:hover {
+    transform: scale(1.5); /* Increase the size of the logo on hover */
+    transition: transform 0.8s ease; /* Add a smooth transition effect */
+    /* Add any other styles to highlight the logo during hover */
+  }
+  .skill-logo {
+    font-size: 6rem; /* Increase the size of the logos */
+    margin-right: 0.3rem;
+   
+  }
+  .skill-logo.react {
+    color: #61dafb;
+  }
+  
+  .skill-logo.javascript {
+    color: #f7df1e;
+  }
+  
+  .skill-logo.html5 {
+    color: #e34c26;
+   
+  }
+  .skill-logo.css3 {
+    color: #2658e3;
+  }
+  .skill-logo.bootstrap {
+      color: #7952b3; 
+    }
+    .skill-logo.nodejs {
+      color: #4bc853; 
+    } 
+
+    .skill-logo.git {
+      color: #ea6c12; 
+    } 
+
+    .new-logo {
+      width: 30px; /* Adjust the width to match the size of the other logos */
+      height: 30px; /* Adjust the height to match the size of the other logos */
+      /* Add any other styles you need for the new logo */
+    }

@@ -26,6 +26,7 @@
 }
 .about .right {
   max-width: 700px;
+  border-radius: 2000px;
 }
 .right .img-container {
   display: grid;
@@ -33,7 +34,7 @@
   position: relative;
   align-items: center;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 2000px;
 }
 .right .img {
   max-width: 90%;
@@ -46,7 +47,6 @@
   grid-row: 1;
   padding-top: 20%;
   z-index: 6;
-
 }
 .right .bottom {
   grid-column: 4 / -1;
